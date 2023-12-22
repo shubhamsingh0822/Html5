@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+    height: inherit;
+    background-image: url(Screenshot\ 2023-12-22\ 112914.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: 200px; */
+  
+
+}
+
+.link {
+    width: 70%;
+    height: inherit;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.linklist{
+    margin-left: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dd {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style The Dropdown Button */
+
+
+.bt{
+    /* background-color: #4CAF50; */
+    color: white;
+    /* padding: 16px; */
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    margin-left: 60px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+
+.ddc{
+    display: none;
+    position: absolute;
+    left: 30px;
+    background-color: blueviolet;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+
+.ddc .a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+ 
+}
+
+/* Change color of dropdown links on hover */
+
+.ddc .a:hover {
+    background-color: blue;
+}
+
+/* Show the dropdown menu on hover */
+
+.dd:hover .ddc{
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+dd:hover .bt{
+    background-color: blue;
+}
+.ddc .ab{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.ddc .ab:hover {
+    background-color: blue
+}
+/* The container <div> - needed to position the dropdown content */
+.ab{
+    position: relative;
+    display: inline-block;
+}
+/* Style The Dropdown Button */
+
+.bt1{
+    color: white;
+    /* padding: 0px 0px; */
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.ddc1{
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -2px;
+    /* bottom: 50px; */
+    background-color: blueviolet;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.ddc1 .ac{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.ddc1 .ac:hover {
+    background-color: blue;
+}
+/* Show the dropdown menu on hover */
+.ab:hover .ddc1{
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+ab:hover .bt1{
+    background-color: blue;
+}
+.btr{
+    height: 50px;
+    width: 130px;
+    margin-left: 60px;
+    font-size: 18px;
+
+}
